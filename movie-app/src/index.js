@@ -9,4 +9,3 @@ root.render(
     <Root />
   </React.StrictMode>
 );
-
