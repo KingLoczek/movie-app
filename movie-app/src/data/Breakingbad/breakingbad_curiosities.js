@@ -1,4 +1,4 @@
-export const breakingbad_curiosities = [
+export const breakingbadCuriosities = [
   {
     curiosities: "In the scenes where the characters smoke methamphetamine, they actually smoke sugar, but don't inhale it. The pseudonym used by the main character - Heisenberg, is a reference to the physicist Werner Heisenberg, one of the co-founders of quantum mechanics."
   },

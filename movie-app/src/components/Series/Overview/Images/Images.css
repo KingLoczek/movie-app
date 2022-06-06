@@ -1,0 +1,30 @@
+.container_images{
+    height: 100%;
+    width: 40%;
+}
+
+.child_images_1{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+}
+
+.long{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.child_images_2{
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.short{
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 48%;
+    height: 20vh;
+}

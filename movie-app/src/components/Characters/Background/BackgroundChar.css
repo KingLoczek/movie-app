@@ -1,0 +1,9 @@
+.child_characters{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #202020;
+    width: 87%;
+    border-radius: 15px;
+    height: auto;
+    padding: 50px;
+}

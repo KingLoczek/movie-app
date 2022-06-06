@@ -1,0 +1,6 @@
+.overview{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin-bottom: 50px;
+}

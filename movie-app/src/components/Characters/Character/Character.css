@@ -1,0 +1,16 @@
+.container_character{
+    display: flex;
+}
+
+.child_character{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin: 0 20px;
+}
+
+.character{
+    width: 100%;
+    border-radius: 15px;
+}
