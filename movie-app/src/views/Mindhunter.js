@@ -4,13 +4,13 @@ import Trailer from 'components/Series/Trailer/Trailer';
 import Overview from 'components/Series/Overview/Overview';
 import Characters from 'components/Characters/Characters';
 
-const Mindhunter = () => {
+const Mindhunter = ({ data }) => {
   return (
     <>
       <Background />
       <Trailer />
       <Overview />
-      <Characters />
+      <Characters data={data} />
     </>
   );
 };

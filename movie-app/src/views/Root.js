@@ -1,24 +1,22 @@
 import React from 'react';
 import Mainpage from 'components/Mainpage/Main/Mainpage';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Series from 'data/Series';
 import Mindhunter from './Mindhunter';
 import Sherlock from './Sherlock';
-import Breakingbad from './Breakingbad';
 
 const Root = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/mindhunter">
-          <Mindhunter />
-        </Route>
-        <Route path="/sherlock">
-          <Sherlock />
-        </Route>
-        <Route path="/breakingbad">
-          <Breakingbad />
-        </Route>
-        <Route path="/">
+        {/*{Series.map((Series) => (*/}
+        {/*  <React.Fragment key={Series.id}>*/}
+        {/*    <Route path={Series.pathname}>*/}
+        {/*      <Series.Component data={Series.data} />*/}
+        {/*    </Route>*/}
+        {/*  </React.Fragment>*/}
+        ))}
+        <Route path="/" exact>
           <Mainpage />
         </Route>
       </Switch>
